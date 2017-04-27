@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 FP=$(cd ${0%/*} && pwd -P)
 export VENDOR=$(basename $(dirname $FP))
 export DEVICE=$(basename $FP)
